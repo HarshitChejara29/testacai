@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const SeventhSection = () => {
     return(
-        <section className="w-full h-screen pt-[3.75rem]">
+        <section className="w-full h-screen pt-[7.75rem]">
             <div className="flex flex-col items-start justify-start px-[1.2rem]">
                 <span className="text-[1rem] tracking-[-0.06em]">SUPPORTED DOCUMENTS</span>
                 <span className="text-[1.375rem] tracking-[-0.06em] font-medium">Automate your finances effortlessly, no matter where you operate</span>

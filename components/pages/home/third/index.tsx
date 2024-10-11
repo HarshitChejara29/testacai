@@ -53,7 +53,7 @@ const ThirdSection = () => {
     };
   
     return (
-      <div className="relative h-full">
+      <div className="relative h-full pt-[3rem]">
         {/* Scrolling Section */}
         <div ref={scrollContainerRef} className="h-[80%] flex overflow-x-auto no-scrollbar gap-2 py-8">
           {/* Repeating content to simulate infinite scroll */}

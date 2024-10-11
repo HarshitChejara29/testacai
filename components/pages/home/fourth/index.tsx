@@ -11,30 +11,34 @@ const FourthSection = ( ) => {
                 <div className="flex flex-col items-start justify-start gap-[1rem] pt-[1.625rem]">
                         <div className="flex flex-col items-start justify-start">
                             <div className="h-[2.25rem] w-[2.25rem] flex items-center justify-center  border border-white rounded-lg"><Icons.folderSync/></div>
-                            <span className="text-[1rem] tracking-[-0.06em] font-medium pt-[0.75rem]">Accelerate innovation</span>
+                            <span className="text-[1rem] tracking-[-0.06em] font-medium pt-[0.75rem]">Document Processing using NLP (Natural Language Processing)</span>
                             <span className="text-[0.875rem] tracking-[-0.06em] pt-[0.25rem]">Innovate and launch at lightning speed, on the only platform that&apos;s consistently first-to-market with new capabilities.</span>
                         </div>
                         <div className="flex flex-col items-start justify-start">
                             <div className="h-[2.25rem] w-[2.25rem] flex items-center justify-center  border border-white rounded-lg"><Icons.fileInput/></div>
-                            <span className="text-[1rem] tracking-[-0.06em] font-medium pt-[0.75rem]">Accelerate innovation</span>
+                            <span className="text-[1rem] tracking-[-0.06em] font-medium pt-[0.75rem]">Seamless integration with ERP & accounting/bookkeeping softwares.</span>
                             <span className="text-[0.875rem] tracking-[-0.06em] pt-[0.25rem]">Innovate and launch at lightning speed, on the only platform that&apos;s consistently first-to-market with new capabilities.</span>
                         </div>
                         <div className="flex flex-col items-start justify-start">
                             <div className="h-[2.25rem] w-[2.25rem] flex items-center justify-center  border border-white rounded-lg"><Icons.brainCircuit/></div>
-                            <span className="text-[1rem] tracking-[-0.06em] font-medium pt-[0.75rem]">Accelerate innovation</span>
+                            <span className="text-[1rem] tracking-[-0.06em] font-medium pt-[0.75rem]">Import files conveniently</span>
                             <span className="text-[0.875rem] tracking-[-0.06em] pt-[0.25rem]">Innovate and launch at lightning speed, on the only platform that&apos;s consistently first-to-market with new capabilities.</span>
                         </div>
                         <div className="flex flex-col items-start justify-start">
                             <div className="h-[2.25rem] w-[2.25rem] flex items-center justify-center  border border-white rounded-lg"><Icons.chartSpline/></div>
-                            <span className="text-[1rem] tracking-[-0.06em] font-medium pt-[0.75rem]">Accelerate innovation</span>
+                            <span className="text-[1rem] tracking-[-0.06em] font-medium pt-[0.75rem]">Bank statement automation</span>
                             <span className="text-[0.875rem] tracking-[-0.06em] pt-[0.25rem]">Innovate and launch at lightning speed, on the only platform that&apos;s consistently first-to-market with new capabilities.</span>
                         </div>
                         <div className="flex flex-col items-start justify-start">
                             <div className="h-[2.25rem] w-[2.25rem] flex items-center justify-center border border-white  rounded-lg"><Icons.blocks/></div>
-                            <span className="text-[1rem] tracking-[-0.06em] font-medium pt-[0.75rem]">Accelerate innovation</span>
+                            <span className="text-[1rem] tracking-[-0.06em] font-medium pt-[0.75rem]">Document Read Assessment</span>
                             <span className="text-[0.875rem] tracking-[-0.06em] pt-[0.25rem]">Innovate and launch at lightning speed, on the only platform that&apos;s consistently first-to-market with new capabilities.</span>
                         </div>
-                       
+                        <div className="flex flex-col items-start justify-start">
+                            <div className="h-[2.25rem] w-[2.25rem] flex items-center justify-center border border-white  rounded-lg"><Icons.blocks/></div>
+                            <span className="text-[1rem] tracking-[-0.06em] font-medium pt-[0.75rem]">Document Analysis & Text understanding</span>
+                            <span className="text-[0.875rem] tracking-[-0.06em] pt-[0.25rem]">Innovate and launch at lightning speed, on the only platform that&apos;s consistently first-to-market with new capabilities.</span>
+                        </div>
                 </div>
             </div>
         </section>

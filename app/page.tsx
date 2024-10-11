@@ -10,7 +10,7 @@ import NineSection from "@/components/pages/home/nine";
 import SecondSection from "@/components/pages/home/second";
 import SeventhSection from "@/components/pages/home/seventh";
 import SixthSection from "@/components/pages/home/sixth";
-import TenthSection from "@/components/pages/home/ten";
+// import TenthSection from "@/components/pages/home/ten";
 import ThirdSection from "@/components/pages/home/third";
 import TwelthSection from "@/components/pages/home/twelth";
 
@@ -29,7 +29,7 @@ export default function Home() {
       <EigthSection/>
       <NineSection/>
       <Banners content={'Streamline your back office tasks.'}/>
-      <TenthSection/>
+      {/* <TenthSection/> */}
       <EleventhSection/>
       <TwelthSection/>
     </main>

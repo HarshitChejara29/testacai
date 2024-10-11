@@ -28,7 +28,7 @@ const SecondSection = () => {
                 <div className="grid grid-cols-2 w-full h-full text-[#ffffff]">
                     <div className="flex items-center justify-center max-w-[70%] h-full"><span>Faster Month-End Closing</span></div>
                     <div className="flex items-center justify-center max-w-[70%]"><span>Secure Document Storage</span></div>
-                    <div className="flex items-center justify-center max-w-[70%]"><span>Improve Cash Flow Visibility</span></div>
+                    <div className="flex items-center justify-center max-w-[70%]"><span>Automated Data Processing</span></div>
                     <div className="flex items-center justify-center max-w-[70%]"><span>Mobile Access on the Go</span></div>
                 </div>
             </div>

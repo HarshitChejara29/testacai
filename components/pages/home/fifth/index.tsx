@@ -19,13 +19,13 @@ const FifthSection = () => {
   }, [images.length]);
 
   return (
-    <section className="w-full h-screen">
+    <section className="w-full h-screen pt-[16rem] ">
       <div className="flex flex-col items-start justify-start px-[1.2rem] pt-[3.75rem] gap-[0.5rem]">
         <span className="text-[1rem] tracking-[-0.06em]">START AUTOMATING TODAY</span>
         <span className="text-[1.375rem] tracking-[-0.06em] font-medium">YOUR COMPANY, YOUR WAY</span>
       </div>
 
-      <div className="flex flex-col items-start justify-start pt-[1.25rem]">
+      <div className="flex flex-col items-start justify-start">
         {/* images */}
         <div className="flex gap-4 px-[1.2rem] overflow-x-auto no-scrollbar">
           <div className="flex min-w-[60%] h-[410px] items-center justify-center">
