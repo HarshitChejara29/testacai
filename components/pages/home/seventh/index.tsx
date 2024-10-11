@@ -1,6 +1,6 @@
 import { Icons } from "@/utils/icons";
-import Image from "next/image";
 import Link from "next/link";
+import { Video } from "@/components/globals/videoplayer";
 
 const SeventhSection = () => {
     return(
@@ -12,8 +12,8 @@ const SeventhSection = () => {
                 <span>Innovate and launch at lightning speed, on the only platform that&apos;s consistently first-to-market with new capabilities.</span>
                 <Link href={'/'} className="text-white underline pt-[2.875rem]" >Start Free Trial</Link>
                 </div>
-                <div className="w-full pt-[4rem] flex items-center justify-center">
-                    <Image src={'/screens/dashboard.png'} height={360} width={395} alt="" className="object-cover rounded-lg" />
+                <div className="w-full pt-[2rem] flex items-center justify-center">
+                    <Video height={360} width={395} src="/backgrounds/videobg.mp4" className="rounded w-auto h-[360px] object-cover pointer-events-none z-10 px-[1.2rem]"/>
                 </div>
                 <div className="px-[1.2rem] pt-[0.5125rem]">
                     <div className="w-[2.5rem] h-[2.5rem] flex items-center justify-center border border-white rounded-lg "><Icons.chevronRight/></div>

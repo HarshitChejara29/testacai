@@ -3,7 +3,7 @@ import Image from "next/image";
 const Hero = () => {
     return (
         <>
-        <section className="relative bg-[#d1e4ed] z-0 w-full z-0 flex flex-col ">
+        <section className="relative bg-[#a1f5f7] z-0 w-full z-0 flex flex-col ">
             <div className="relative z-0 h-full px-[1.2rem]">
                 <div className="relative z-10 h-max flex flex-col pt-[9.81rem] gap-[0.2rem] mb-16" >
                     <p className="text-sm font-bold text-center">DATE OF PUBLISH</p>

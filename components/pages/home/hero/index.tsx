@@ -19,9 +19,9 @@ const HeroSection = () => {
                     <button className=" h-[2.5rem] bg-[#ffffff] text-black rounded-full w-full" >Watch how Accountant Ai works</button>
                 </div>
             </div>
-            <div className="h-auto  px-[1.2rem] pt-[2.5rem] flex flex-col gap-[2.25rem]">
+            <div className="h-auto bg-[#33649D] text-[#ffffff] px-[1.2rem] pt-[2.5rem] flex flex-col gap-[2.25rem]">
                 <span className="text-[2rem] leading-[92%]">Accountant AI automates invoicing, expense tracking, and reporting. Focus on business growth, not paperwork.</span>
-                <span className="text-[22px] leading-[100%] tighter-[-0.6em]">Gain efficiency, reduce errors, and save hours each week.  </span>
+                <span className="text-[22px] leading-[100%] tighter-[-0.6em] mb-5">Gain efficiency, reduce errors, and save hours each week.  </span>
             </div>
         </section>
     )

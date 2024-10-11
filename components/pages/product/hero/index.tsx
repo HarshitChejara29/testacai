@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Hero = () => {
     return(
-        <section className="relative bg-[#d1e4ed] z-0 h-screen w-full z-0 flex flex-col ">
+        <section className="relative bg-[#a1f5f7] z-0 h-screen w-full z-0 flex flex-col ">
             <div className="relative z-0 h-[65%] px-[1.2rem]">
                 <div className="relative z-10 h-max flex flex-col pt-[9.81rem] gap-[1rem]" >
                     <span className="text-[2.63rem] leading-[92%] text-black font-bold">Ready to automate doc processing ?</span>

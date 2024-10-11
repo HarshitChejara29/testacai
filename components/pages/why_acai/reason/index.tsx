@@ -4,7 +4,7 @@ import Image from "next/image";
 const Reason = () => {
     return (
         <>
-        <section className="bg-[#94b8c8] px-[1.2rem] py-16">
+        <section className="bg-[#33649D] text-[#ffffff] px-[1.2rem] py-16">
             <h1 className="mb-8">1<span className="underline ml-2 text-xl">REASON 1</span></h1>
             <div className="space-y-2 mb-12">
             <p>Import your documents from wherever they are, whenever they are created, with omnichannel and a fully integrated data sync. Plus forget everything you knew about Ai Accounting - meet <span className="font-bold">Accountant Ai</span></p>
@@ -14,7 +14,7 @@ const Reason = () => {
             </div>
         </section>
 
-        <section className="px-[1.2rem] bg-[#d1e4ed] py-16">
+        <section className="px-[1.2rem] bg-[#182E49] text-[#ffffff] py-16">
             <h2 className="font-semibold">2</h2>
             <h1 className="font-bold text-2xl mb-3">REASON 2</h1>
             <div className="space-y-2 mb-5">
@@ -57,7 +57,7 @@ const Reason = () => {
             </div>
         </section>
 
-        <section className="px-[1.2rem] bg-[#d1e4ed] py-14">
+        <section className="px-[1.2rem] bg-[#33649D] text-[#ffffff] py-14">
             <h2 className="font-semibold">4</h2>
             <h1 className="font-bold text-2xl mb-3">REASON 4</h1>
             <div className="space-y-2">
@@ -83,7 +83,7 @@ const Reason = () => {
             </div>
         </section>
 
-        <section className="bg-[#94b8c8] px-[1.2rem] py-16">
+        <section className="bg-[#33649D] text-[#ffffff] px-[1.2rem] py-16">
             <h1 className="mb-8">6<span className="underline ml-2 text-xl">REASON 6</span></h1>
             <div className="space-y-2 mb-12">
                 <div>

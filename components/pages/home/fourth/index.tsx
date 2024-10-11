@@ -2,7 +2,7 @@ import { Icons } from "@/utils/icons"
 
 const FourthSection = ( ) => {
     return(
-        <section className="w-full h-screen ">
+        <section className="w-full h-screen">
             <div className="flex flex-col px-[1.2rem] pt-[1.375rem] ">
                 <span className="text-[1rem]  tracking-[-0.06em]">ACCOUNTANT AI ADVANTAGES</span>
                 <span className="text-[1.375rem] tracking-[-0.06em]">ACCOUNTANT AI TITLE</span>

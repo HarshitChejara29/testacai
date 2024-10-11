@@ -53,12 +53,12 @@ const ThirdSection = () => {
     };
   
     return (
-      <div className="relative h-full pt-[4rem]">
+      <div className="relative h-full pt-[4rem] bg-[#182E49] text-[#ffffff]">
         {/* Scrolling Section */}
         <div ref={scrollContainerRef} className="h-[80%] flex overflow-x-auto no-scrollbar gap-2 py-8">
           {/* Repeating content to simulate infinite scroll */}
           {[...Array(4)].map((_, index) => (
-            <div key={index} className="h-full min-w-[18rem] border-r border-white">
+            <div key={index} className="h-full min-w-[18rem] border-r border-[#ffffff]">
               <div className="w-full flex items-center justify-center flex-col px-[1.2rem]">
                 <span className="text-[1.2rem] tracking-[-0.06em]">
                   {thirdSectionData.sections[index % thirdSectionData.sections.length].title}
@@ -83,7 +83,7 @@ const ThirdSection = () => {
             {/* Left button */}
             <div
               onClick={handleScrollLeft}
-              className="w-[2.25rem] h-[2.25rem] flex items-center justify-center rounded-md border border-white cursor-pointer hover:bg-gray-200 transition-all duration-200"
+              className="w-[2.25rem] h-[2.25rem] flex items-center justify-center rounded-md border border-[#ffffff] cursor-pointer hover:bg-gray-200 transition-all duration-200"
             >
               <Icons.chevronLeft />
             </div>
@@ -97,7 +97,7 @@ const ThirdSection = () => {
             {/* Right button */}
             <div
               onClick={handleScrollRight}
-              className="w-[2.25rem] h-[2.25rem] flex items-center justify-center rounded-md border border-white cursor-pointer hover:bg-gray-200 transition-all duration-200"
+              className="w-[2.25rem] h-[2.25rem] flex items-center justify-center rounded-md border border-[#ffffff] cursor-pointer hover:bg-gray-200 transition-all duration-200"
             >
               <Icons.chevronRight />
             </div>

@@ -2,7 +2,7 @@ import { Icons } from "@/utils/icons";
 
 const EleventhSection = () => {
     return(
-        <section className="h-[60vh] pt-[3.75rem]">
+        <section className="h-[60vh] pt-[3.75rem] bg-[#33649D] text-[#ffffff]">
             <div className="flex flex-col items-center justify-center text-center gap-[0.175rem] pb-[5.5625rem]">
                 <span className="text-[1rem] leading-none tracking-[-0.06em]">ACCOUNTANT AI SUPPORT</span>
                 <span className="text-center text-[1.375rem] max-w-[60%] leading-none font-semibold">The help you need, when you need it</span>

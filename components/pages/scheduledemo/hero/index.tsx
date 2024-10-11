@@ -9,7 +9,7 @@ import Scheduledemo from "@/components/globals/forms/scheduledemo";
 const Hero = () => {
     const [date, setDate] = React.useState(today(getLocalTimeZone()));
     const [isPopupOpen, setPopupOpen] = useState(false);
-    const { locale } = useLocale();
+    const {locale} = useLocale();
     const isInvalid = isWeekend(date, locale);
 
     const togglePopup = () => {
@@ -18,7 +18,7 @@ const Hero = () => {
 
     return (
         <>
-            <section className="relative bg-[#d1e4ed] z-0 w-full z-0 flex flex-col ">
+            <section className="relative bg-[#67d3f2] z-0 w-full z-0 flex flex-col ">
                 <div className="relative z-0 h-full px-[1.2rem]">
                     <div className="relative z-10 h-max flex flex-col pt-[6.81rem] gap-[0.2rem] mb-16">
                         <p className="text-sm font-bold">SCHEDULE DEMO</p>
@@ -31,10 +31,10 @@ const Hero = () => {
                             <Image src="/backgrounds/bg_image.png" alt="integration" width={80} height={80} />
                             <h1 className="text-lg mt-2 font-semibold">ACCOUNTANT AI INTRO</h1>
 
-                            <div className="w-full max-w-xs px-4 text-left">
+                            <div className="w-full text-center">
                                 <Calendar
                                     aria-label="Date (Invalid on weekends)"
-                                    errorMessage={isInvalid ? <span className="text-red-500 px-4">We are closed on weekends</span> : undefined}
+                                    errorMessage={isInvalid ? <span className="text-center text-red-500 px-4">We are closed on weekends</span> : undefined}
                                     isInvalid={isInvalid}
                                     value={date}
                                     onChange={setDate}
