@@ -7,10 +7,10 @@ import { useLocale } from "@react-aria/i18n";
 import Scheduledemo from "@/components/globals/forms/scheduledemo";
 
 const Hero = () => {
-    let [date, setDate] = React.useState(today(getLocalTimeZone()));
+    const [date, setDate] = React.useState(today(getLocalTimeZone()));
     const [isPopupOpen, setPopupOpen] = useState(false);
-    let { locale } = useLocale();
-    let isInvalid = isWeekend(date, locale);
+    const { locale } = useLocale();
+    const isInvalid = isWeekend(date, locale);
 
     const togglePopup = () => {
         setPopupOpen((prev) => !prev);
