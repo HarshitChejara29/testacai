@@ -4,7 +4,7 @@ import Image from "next/image";
 const Feature = () => {
     return (
         <>
-        <section className="px-5 border-dashed border-b-2 border-[#818181] py-6">
+        <section className="px-5 border-dashed border-b-2 border-[#818181] py-10 pt-[8rem]">
             <div className="text-center py-8">
                 <p className="text-sm">Feature 1</p>
                 <h1 className="font-bold text-lg leading-[100%] py-1">Scan any type of financial document. Instantly</h1>
