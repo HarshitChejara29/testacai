@@ -21,15 +21,15 @@ const SecondSection = () => {
 
     return (
         <section className="h-screen flex flex-col bg-white text-black">
-            <div className="h-[65%] pt-[1.5rem] px-[1.2rem] flex flex-col items-start justify-start">
+            <div className="h-[65%] pt-[1.5rem] px-[1.2rem] mb-5 flex flex-col items-start justify-start">
                 <div className="w-full h-max flex items-center justify-center">
                     <Image height={362} width={405} className="object-cover" alt="" src={'/illustrations/home2.png'} />
                 </div>
                 <div className="grid grid-cols-2 w-full h-full text-[#ffffff]">
-                    <div className="flex items-center justify-center max-w-[70%] h-full"><span>Faster Month-End Closing</span></div>
-                    <div className="flex items-center justify-center max-w-[70%]"><span>Secure Document Storage</span></div>
-                    <div className="flex items-center justify-center max-w-[70%]"><span>Automated Data Processing</span></div>
-                    <div className="flex items-center justify-center max-w-[70%]"><span>Mobile Access on the Go</span></div>
+                    <div className="flex items-center justify-center max-w-[85%]"><span>Faster Month-End Closing</span></div>
+                    <div className="flex items-center justify-center max-w-[85%]"><span>Secure Document Storage</span></div>
+                    <div className="flex items-center justify-center max-w-[85%]"><span>Improve Cash Flow Visibility</span></div>
+                    <div className="flex items-center justify-center max-w-[85%]"><span>Mobile Access on the Go</span></div>
                 </div>
             </div>
             <div className="h-auto bg-black text-[#ffffff] pt-[3.75rem] px-[1.2rem] w-full">

@@ -2,7 +2,7 @@ import { Video } from "@/components/globals/videoplayer";
 
 const HeroSection = () => {
     return(
-        <section className="relative z-0 h-screen w-full z-0 flex flex-col ">
+        <section className="relative z-0 h-screen w-full z-0 flex flex-col mb-32">
             <div className="relative z-0 h-auto px-[1.2rem]">
                 <div className="w-full absolute inset-0 z-0 h-full">
                    <Video height={320} width={430} src="/backgrounds/videobg.mp4" className="w-full min-h-full object-cover pointer-events-none relative z-0" />
@@ -23,7 +23,6 @@ const HeroSection = () => {
                 <span className="text-[2rem] leading-[92%]">Accountant AI automates invoicing, expense tracking, and reporting. Focus on business growth, not paperwork.</span>
                 <span className="text-[22px] leading-[100%] tighter-[-0.6em]">Gain efficiency, reduce errors, and save hours each week.  </span>
             </div>
-
         </section>
     )
 }

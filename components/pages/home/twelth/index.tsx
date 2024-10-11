@@ -1,6 +1,6 @@
 const TwelthSection = () => {
     return(
-        <section className="h-[70vh] px-5 flex flex-col items-center justify-center gap-[8.8125rem]">
+        <section className="h-[75vh] px-5 flex flex-col items-center justify-center pt-[5rem] gap-[8.8125rem]">
             <div className="flex flex-col w-full items-center justify-center gap-[0.375rem]">
             <span className="text-[1rem]">grow your business here</span>
             <span className="text-[1.375rem] text-center font-semibold">Whether you want a fully autonomous finance team, or a tool that supports your finance team, we have what you need, all at one place.</span>
