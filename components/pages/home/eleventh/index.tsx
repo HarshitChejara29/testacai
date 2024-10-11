@@ -5,7 +5,7 @@ const EleventhSection = () => {
         <section className="h-[60vh] pt-[3.75rem]">
             <div className="flex flex-col items-center justify-center text-center gap-[0.175rem] pb-[5.5625rem]">
                 <span className="text-[1rem] leading-none tracking-[-0.06em]">ACCOUNTANT AI SUPPORT</span>
-                <span className="text-center text-[1.375rem] max-w-[50%] leading-none font-semibold">The help you need, when you need it</span>
+                <span className="text-center text-[1.375rem] max-w-[60%] leading-none font-semibold">The help you need, when you need it</span>
             </div>
             <div className="flex overflow-x-auto no-scrollbar gap-4 px-[1.2rem]">
                 <div className="flex flex-col  min-w-[80%]">

@@ -20,7 +20,7 @@ const SecondSection = () => {
     };
 
     return (
-        <section className="h-screen flex flex-col bg-white text-black">
+        <section className="h-screen flex flex-col bg-white text-black mt-12">
             <div className="h-[65%] pt-[1.5rem] px-[1.2rem] mb-5 flex flex-col items-start justify-start">
                 <div className="w-full h-max flex items-center justify-center">
                     <Image height={362} width={405} className="object-cover" alt="" src={'/illustrations/home2.png'} />

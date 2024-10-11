@@ -19,13 +19,13 @@ const NineSection = () => {
   }, [images.length]);
 
   return (
-    <section className="w-full h-screen">
+    <section className="w-full h-screen mb-10">
       <div className="flex flex-col items-start justify-start px-[1.2rem] pt-[3.75rem] gap-[0.5rem]">
         <span className="text-[1rem] tracking-[-0.06em]">CENTRALIZED BUSINESS OPERATIONS</span>
         <span className="text-[1.375rem] tracking-[-0.06em] font-medium">Streamline your back office tasks.</span>
       </div>
 
-      <div className="flex flex-col items-start justify-start pt-[1.25rem]">
+      <div className="flex flex-col items-start justify-start">
         {/* images */}
         <div className="flex gap-4 px-[1.2rem] overflow-x-auto no-scrollbar">
           <div className="flex min-w-[60%] h-[410px] items-center justify-center">
