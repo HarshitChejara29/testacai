@@ -29,7 +29,7 @@ const Hero = () => {
                     </button>
                 </div>
             </div>
-            <div className="relative h-auto pt-[7rem] flex flex-col gap-[2.25rem]">
+            <div className="relative h-auto pt-[9.5rem] flex flex-col gap-[2.25rem]">
                 {/* Image background */}
                 <Image
                     src="/backgrounds/bg_image.png"
